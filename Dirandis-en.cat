@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="990e-9289-2e68-4c6d" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa55-aa56-bde4-44e3" type="min"/>
+        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa55-aa56-bde4-44e3" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a5e8-edca-b9db-9896" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
@@ -12,8 +12,8 @@
       <selectionEntries>
         <selectionEntry id="de35-4c4d-090d-d344" name="Barbarians" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5d-8e59-959b-d6de" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0608-8667-885a-adcd" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5d-8e59-959b-d6de" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0608-8667-885a-adcd" type="min"/>
           </constraints>
           <profiles>
             <profile id="2252-9b9c-c915-8c56" name="Barbarians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -32,12 +32,12 @@
             <infoLink id="5f46-325b-8148-309f" name="Focused Attack" hidden="false" targetId="f32d-151d-46cb-c91c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="12"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bec-52f9-13a8-4b7a" name="Amazons" hidden="false" collective="false" import="true" type="unit">
@@ -47,8 +47,8 @@
       <selectionEntries>
         <selectionEntry id="b28b-5fa3-38ae-7990" name="Amazons" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4100-a79d-4239-c34d" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f672-1e3c-2186-ba15" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4100-a79d-4239-c34d" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f672-1e3c-2186-ba15" type="min"/>
           </constraints>
           <profiles>
             <profile id="67c6-c72a-888a-8d2c" name="Amazons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -72,24 +72,24 @@
             <infoLink id="0921-b106-3efa-0a4c" name="Light Shield Defence" hidden="false" targetId="1a2b-58a0-4a1c-4f64" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="10.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="8"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="518a-5ca9-74c8-ec64" name="Riders on Gridons" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="b3d5-9c65-67d7-bc67" value="5.0">
+        <modifier type="set" field="b3d5-9c65-67d7-bc67" value="5">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d5-9c65-67d7-bc67" type="max"/>
+        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d5-9c65-67d7-bc67" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7802-c865-8aa5-5718" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
@@ -97,8 +97,8 @@
       <selectionEntries>
         <selectionEntry id="f2ee-ab01-2c7f-a807" name="Riders on Gridons" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5414-94d5-56ee-b340" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6959-10f1-6117-1ce7" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5414-94d5-56ee-b340" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6959-10f1-6117-1ce7" type="min"/>
           </constraints>
           <profiles>
             <profile id="eba1-7153-e025-d044" name="Riders on Gridons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -118,12 +118,12 @@
             <infoLink id="e799-e207-217b-e937" name="Fierce Assault" hidden="false" targetId="5986-f542-b132-1c02" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="21.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="21"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5ab-c8fa-92ab-4619" name="Wolf Brothers" hidden="false" collective="false" import="true" type="unit">
@@ -133,8 +133,8 @@
       <selectionEntries>
         <selectionEntry id="ed40-ebdb-7d21-9a6d" name="Wolf Brothers" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-8d5e-40ca-9e8b" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5e-d727-af95-8434" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-8d5e-40ca-9e8b" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5e-d727-af95-8434" type="min"/>
           </constraints>
           <profiles>
             <profile id="347c-cd60-604e-8cb7" name="Wolf Brothers" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -151,7 +151,7 @@
           </profiles>
           <rules>
             <rule id="808f-272a-475b-c309" name="Magic Runes" hidden="false">
-              <description>A total score of 3 or less in the Prayer Test made by this unit is considered a free prayer (the prayers’ pool does not decrease)</description>
+              <description>A successful Prayer Test of this unit means that the unit can use the rules of two different prayers instead of one. Such additional prayer does not decrease the pool of prayers.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -159,12 +159,12 @@
             <infoLink id="61a5-14e7-1ad1-3a91" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="41f7-927e-2b75-8048" name="Giant" hidden="false" collective="false" import="true" type="model">
@@ -183,12 +183,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="0b75-467c-6bb7-70c2" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+        <infoLink name="Throwing stones" hidden="false" id="37db-b3c8-aae3-de84" type="rule" targetId="ccdb-ba61-1f3b-9069"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2569-e092-c575-db37" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="43.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="43"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e05-1d14-7bca-16c1" name="Half-giants" hidden="false" collective="false" import="true" type="unit">
@@ -198,8 +199,8 @@
       <selectionEntries>
         <selectionEntry id="b25d-8484-c5f4-8be7" name="Half-giants" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c710-d2ec-fd42-4634" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a7-0fe2-df00-0669" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c710-d2ec-fd42-4634" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a7-0fe2-df00-0669" type="min"/>
           </constraints>
           <profiles>
             <profile id="fa5d-1c91-d33a-6d0e" name="Half-giants" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -209,21 +210,22 @@
                 <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
                 <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
                 <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
-                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
                 <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="893b-18f6-925b-0d4d" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+            <infoLink name="Cleaving" hidden="false" id="cd1f-f937-f985-4b00" type="rule" targetId="aca3-877f-d243-b47"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="22.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e389-66f3-e7b2-d828" name="Sasquatches" hidden="false" collective="false" import="true" type="unit">
@@ -233,8 +235,8 @@
       <selectionEntries>
         <selectionEntry id="d666-adf7-6c0e-16f5" name="Sasquatches" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adae-91d8-7b87-535b" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b748-96b7-5522-f868" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adae-91d8-7b87-535b" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b748-96b7-5522-f868" type="min"/>
           </constraints>
           <profiles>
             <profile id="ae73-62e2-ff92-9310" name="Sasquatches" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -255,12 +257,12 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e923-7cf7-c48b-1444" name="Wilhars" hidden="false" collective="false" import="true" type="unit">
@@ -270,8 +272,8 @@
       <selectionEntries>
         <selectionEntry id="0ffa-dbb2-882d-6b21" name="Wilhars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9feb-2652-cce9-71ff" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc69-b06f-e44a-545b" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9feb-2652-cce9-71ff" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc69-b06f-e44a-545b" type="min"/>
           </constraints>
           <profiles>
             <profile id="5251-7b3d-4154-3c65" name="Wilhars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -291,12 +293,12 @@
             <infoLink id="d7bc-9dac-953d-1e01" name="Wild Speed" hidden="false" targetId="2ffb-5ae6-6925-f2f4" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="17.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="17"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ac2-bdb0-b591-2743" name="Elephanton" hidden="false" collective="false" import="true" type="model">
@@ -326,24 +328,24 @@
         <categoryLink id="5c17-d7fa-0e79-a48c" name="Uniqe units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="88.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="88"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13ec-f594-2080-cec6" name="Champion of Ice" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="0a41-09ba-de1f-c238" value="1.0">
+        <modifier type="set" field="0a41-09ba-de1f-c238" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="0a41-09ba-de1f-c238" value="2.0">
+        <modifier type="set" field="0a41-09ba-de1f-c238" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a41-09ba-de1f-c238" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a41-09ba-de1f-c238" type="max"/>
       </constraints>
       <profiles>
         <profile id="8862-d0de-3eac-e4d4" name="Champion of Ice" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -358,24 +360,24 @@
         <categoryLink id="6f2b-c993-3b09-efed" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22f1-733e-3d7c-7241" name="Champion of Fire" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="cc92-300b-93dd-6f8d" value="1.0">
+        <modifier type="set" field="cc92-300b-93dd-6f8d" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="cc92-300b-93dd-6f8d" value="2.0">
+        <modifier type="set" field="cc92-300b-93dd-6f8d" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc92-300b-93dd-6f8d" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc92-300b-93dd-6f8d" type="max"/>
       </constraints>
       <profiles>
         <profile id="2946-35d1-0877-754e" name="Champion of Fire" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -390,29 +392,29 @@
         <categoryLink id="ca19-8403-660a-cb7a" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="10.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71e0-2a51-16b9-c78c" name="Champion of Storm" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="e642-a716-993e-1f41" value="1.0">
+        <modifier type="set" field="e642-a716-993e-1f41" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="e642-a716-993e-1f41" value="2.0">
+        <modifier type="set" field="e642-a716-993e-1f41" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e642-a716-993e-1f41" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e642-a716-993e-1f41" type="max"/>
       </constraints>
       <profiles>
         <profile id="4477-58f7-ebd3-1751" name="Champion of Storm" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Make a d6 test before or after moving the Champion of Storm. Choose an enemy unit within 30 cm. A score of 4 or less means the chosen unit must take a Panic Test for 1 base</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">After activating the Champion of Storm, select an enemy unit within 30 cm and roll a d6 for each rank in that unit. Each score of 4 or less means that the unit is dealt 1 Wound. The unit is not protected by any armour or other protection.</characteristic>
             <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>
@@ -422,7 +424,7 @@
         <categoryLink id="0ff6-0d38-b326-25af" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="13"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f269-ae5d-9164-cfd0" name="Priest of the Old Gods" hidden="false" collective="false" import="true" type="model">
@@ -441,7 +443,7 @@
         <entryLink id="183c-353d-9dd0-62f9" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f55-283e-9994-ef0b" name="Fortune-teller" hidden="false" collective="false" import="true" type="model">
@@ -459,12 +461,12 @@
         <entryLink id="61c2-efa6-ed83-3adf" name="Magic items (6 point mage)" hidden="false" collective="false" import="true" targetId="5402-f23e-d2da-b983" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db10-2b83-f366-b6ef" name="Great Hunter" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bee-10e1-a505-c7ba" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bee-10e1-a505-c7ba" type="min"/>
       </constraints>
       <profiles>
         <profile id="32cf-61c2-1907-7097" name="Great Hunter" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
@@ -486,12 +488,12 @@
         <entryLink id="35ca-8efe-7095-993c" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b79f-576a-0630-67c4" name="Command Group" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e4-72aa-caec-9316" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e4-72aa-caec-9316" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ccc3-5cf6-9832-4f74" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
@@ -502,7 +504,7 @@
         <entryLink id="2e85-d70e-9a8c-5b1d" name="Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

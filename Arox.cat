@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="1846-02e4-d7ed-4645" name="Liagulianie" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff55-0ed0-cc3f-a24e" type="min"/>
+        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff55-0ed0-cc3f-a24e" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c6dd-45f2-a10c-b51a" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
@@ -12,8 +12,8 @@
       <selectionEntries>
         <selectionEntry id="433f-6f00-d56d-ae1d" name="Liagulianie" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21c-e810-7fbe-fd84" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8f-0f64-d22f-0318" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21c-e810-7fbe-fd84" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8f-0f64-d22f-0318" type="max"/>
           </constraints>
           <profiles>
             <profile id="9852-559a-5aa1-72b1" name="Liagulianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -33,12 +33,12 @@
             <infoLink id="0db7-9b5b-4db7-e42a" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fd1-caef-e4eb-3b06" name="Reptilianie" hidden="false" collective="false" import="true" type="unit">
@@ -48,8 +48,8 @@
       <selectionEntries>
         <selectionEntry id="e03e-77fa-9e8c-9d3e" name="Reptilianie" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3663-2af0-f58f-21ce" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347b-c465-53f2-b9f1" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3663-2af0-f58f-21ce" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="347b-c465-53f2-b9f1" type="min"/>
           </constraints>
           <profiles>
             <profile id="8e2b-770c-ca66-000c" name="Reptilianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -73,12 +73,12 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc04-0673-1598-a306" name="Repsolianie" hidden="false" collective="false" import="true" type="unit">
@@ -88,8 +88,8 @@
       <selectionEntries>
         <selectionEntry id="25bf-b68c-353c-efd3" name="Repsolianie" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a274-1c50-b663-df8e" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2acb-4966-037a-4490" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a274-1c50-b663-df8e" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2acb-4966-037a-4490" type="max"/>
           </constraints>
           <profiles>
             <profile id="c270-06bb-1c9d-4056" name="Repsolianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -105,7 +105,7 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="9dc7-a72f-bdf5-ebcb" name="Wola Walki " hidden="false">
+            <rule id="9dc7-a72f-bdf5-ebcb" name="Wola Walki" hidden="false">
               <description>Jeśli oddział Repsolian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm</description>
             </rule>
           </rules>
@@ -113,12 +113,12 @@
             <infoLink id="6efb-cc00-4587-ce8b" name="Bitewna Inspiracja" hidden="false" targetId="6a10-dea2-2b74-bfb5" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d471-4770-cc77-ac22" name="Uświęceni" hidden="false" collective="false" import="true" type="unit">
@@ -128,8 +128,8 @@
       <selectionEntries>
         <selectionEntry id="df35-278a-c104-1f38" name="Uświęceni" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ef-d82c-ee09-db9d" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aef1-ee0d-5396-933c" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ef-d82c-ee09-db9d" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aef1-ee0d-5396-933c" type="max"/>
           </constraints>
           <profiles>
             <profile id="b121-5839-6be9-93d3" name="Uświęceni" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -150,12 +150,12 @@
             <infoLink id="3459-f2d8-e27a-a227" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15d0-bdd7-df06-43bd" name="Ropuchoni" hidden="false" collective="false" import="true" type="unit">
@@ -165,8 +165,8 @@
       <selectionEntries>
         <selectionEntry id="1781-2a6c-25d6-6dfd" name="Ropuchoni" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89e0-3468-8263-9657" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e6-52dc-cf33-4d21" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89e0-3468-8263-9657" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e6-52dc-cf33-4d21" type="min"/>
           </constraints>
           <profiles>
             <profile id="ff52-a7b0-df93-2b57" name="Ropuchoni" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -181,18 +181,16 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="1e02-935b-acff-d0a0" name="Trujące Splunięcie" hidden="false">
-              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
-            </rule>
-          </rules>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Trujące Splunięcie" hidden="false" id="6af1-e8b9-6af6-236c" type="rule" targetId="3587-ac9c-4566-1d2b"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac50-6be2-ff6f-6389" name="Desauros ze Słonecznym Monolitem" hidden="false" collective="false" import="true" type="model">
@@ -210,11 +208,10 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="aa53-9a9f-db0d-1182" name="Pierwotny Szał " hidden="false">
-          <description>Podczas szarży Desauros musi wykonać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki
-</description>
+        <rule id="aa53-9a9f-db0d-1182" name="Pierwotny Szał" hidden="false">
+          <description>Podczas szarży Desauros musi wykonać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki</description>
         </rule>
-        <rule id="8564-e5af-ef12-e047" name="Słoneczny Monolit " hidden="false">
+        <rule id="8564-e5af-ef12-e047" name="Słoneczny Monolit" hidden="false">
           <description>Za każdy stracony punkt W Desaurosa podczas walki wykonaj rzut k6. Wynik 2 lub mniej oznacza, że wybrany oddział lub model pojedynczy w promieniu 20 cm otrzymuje 2 rany</description>
         </rule>
       </rules>
@@ -225,7 +222,7 @@
         <categoryLink id="497e-d05d-22df-3dd0" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="68.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="68"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e67-6f8c-2652-1c58" name="Trygodrony" hidden="false" collective="false" import="true" type="unit">
@@ -235,8 +232,8 @@
       <selectionEntries>
         <selectionEntry id="7663-2820-a0e1-2bda" name="Trygodrony" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e43-5231-8589-b047" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c9-3101-e4af-6261" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e43-5231-8589-b047" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c9-3101-e4af-6261" type="min"/>
           </constraints>
           <profiles>
             <profile id="27a3-a32f-6501-b828" name="Trygodrony" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -261,12 +258,12 @@
             <infoLink id="f84a-8c2b-ab82-8a41" name="Nieczułość" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08cc-8166-1dae-3665" name="Forgon" hidden="false" collective="false" import="true" type="model">
@@ -295,7 +292,7 @@
         <categoryLink id="a90e-bba0-781a-eab1" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="35.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="49e9-c26e-7305-aa4f" name="Złota Straż" hidden="false" collective="false" import="true" type="unit">
@@ -305,8 +302,8 @@
       <selectionEntries>
         <selectionEntry id="108a-ca28-7b21-3798" name="Złota Straż" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c4b-3d6b-8edf-648b" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcea-a18c-b612-d272" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c4b-3d6b-8edf-648b" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcea-a18c-b612-d272" type="min"/>
           </constraints>
           <profiles>
             <profile id="0a33-f588-8a5f-fb24" name="Złota Straż" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -321,26 +318,22 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="11b6-4754-6f2e-6c60" name="Trujące Splunięcie" hidden="false">
-              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
-            </rule>
-          </rules>
           <infoLinks>
             <infoLink id="15d4-dd13-2e00-c07b" name="Złoty Pancerz" hidden="false" targetId="02a4-8aa0-b119-a834" type="rule"/>
+            <infoLink name="Trujące Splunięcie" hidden="false" id="41ea-b5d7-5a3c-e4bb" type="rule" targetId="3587-ac9c-4566-1d2b"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7c8-a8ba-f53f-2895" name="Sox’Augatir" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b17-6356-a0d7-a6c0" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b17-6356-a0d7-a6c0" type="min"/>
       </constraints>
       <profiles>
         <profile id="a6ea-b931-5a97-6a5c" name="Sox’Augatir" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
@@ -350,7 +343,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="d2df-1e68-1c2a-7c39" name="Gorąca Krew " hidden="false">
+        <rule id="d2df-1e68-1c2a-7c39" name="Gorąca Krew" hidden="false">
           <description>Armia Arox może wykonać przerzut Testu Inicjatywy</description>
         </rule>
       </rules>
@@ -362,12 +355,12 @@
         <entryLink id="ddf4-979f-82a0-39f6" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fa3-c268-bfd2-0c23" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3541-d7b6-4cd6-0054" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3541-d7b6-4cd6-0054" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="872a-287c-9c6d-c7f9" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
@@ -377,30 +370,29 @@
         <entryLink id="5bff-5b87-c0a1-364f" name="Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1ce-5919-bac6-ecee" name="Czempion Słońca" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="4ff1-8a98-0548-878f" value="2.0">
+        <modifier type="set" field="4ff1-8a98-0548-878f" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="4ff1-8a98-0548-878f" value="1.0">
+        <modifier type="set" field="4ff1-8a98-0548-878f" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff1-8a98-0548-878f" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff1-8a98-0548-878f" type="max"/>
       </constraints>
       <profiles>
         <profile id="d3c2-02be-dbde-0353" name="Czempion Słońca" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Słońca styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, możesz wykonać test. Wynik 2 lub mniej oznacza, że w tym cyklu wrogi oddział musi podczas Testu Walki Standardowej oraz Testu Ranienia wykonać przerzut wszystkich 1
-</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Słońca styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, możesz wykonać test. Wynik 2 lub mniej oznacza, że w tym cyklu wrogi oddział musi podczas Testu Walki Standardowej oraz Testu Ranienia wykonać przerzut wszystkich 1</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">2-</characteristic>
           </characteristics>
         </profile>
@@ -410,29 +402,29 @@
         <categoryLink id="3a00-24b3-eac8-43d2" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71e4-27e0-f9b3-a63a" name="Czempion Bogów" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="6988-bedb-5ff4-746e" value="2.0">
+        <modifier type="set" field="6988-bedb-5ff4-746e" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="6988-bedb-5ff4-746e" value="1.0">
+        <modifier type="set" field="6988-bedb-5ff4-746e" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6988-bedb-5ff4-746e" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6988-bedb-5ff4-746e" type="max"/>
       </constraints>
       <profiles>
         <profile id="5d3e-ee17-2949-4340" name="Czempion Bogów" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział ma prawo przerzucić wszystkie nieudane rzuty podczas Testu WS oraz Testu Ranienia do końca trwania cyklu</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział ma prawo przerzucić wszystkie nieudane rzuty podczas Testu WS lub Testu Ranienia do końca trwania cyklu</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
@@ -442,30 +434,29 @@
         <categoryLink id="94d7-2db5-acfb-27c9" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9160-8058-2ac3-b7eb" name="Czempion Natury" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="acd1-b765-d169-1cf0" value="2.0">
+        <modifier type="set" field="acd1-b765-d169-1cf0" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="acd1-b765-d169-1cf0" value="1.0">
+        <modifier type="set" field="acd1-b765-d169-1cf0" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd1-b765-d169-1cf0" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd1-b765-d169-1cf0" type="max"/>
       </constraints>
       <profiles>
         <profile id="482d-c8e6-cb0c-e193" name="Czempion Natury" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Aktywując jeden dowolny oddział w promieniu 10 cm od Czempiona Natury, możesz wykonać test. Wynik 4 lub mniej oznacza, że oddział może się dowolnie obrócić, a do zasięgu ruchu lub szarży może dodać 3 cm
-</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Aktywując jeden dowolny oddział w promieniu 10 cm od Czempiona Natury, możesz wykonać test. Wynik 4 lub mniej oznacza, że oddział może się dowolnie obrócić, a do zasięgu ruchu lub szarży może dodać 3 cm</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>
@@ -475,7 +466,7 @@
         <categoryLink id="93f0-1985-5f23-f342" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae7f-9083-d82c-5261" name="Słoneczny Prorok" hidden="false" collective="false" import="true" type="model">
@@ -488,7 +479,7 @@
         <entryLink id="9d41-6b1e-f4d8-39b5" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="180e-c942-1740-ef95" name="Mistyk Odrodzonych" hidden="false" collective="false" import="true" type="model">
@@ -506,7 +497,7 @@
         <entryLink id="ec81-ce5d-9161-bfd4" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
